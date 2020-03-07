@@ -1,0 +1,19 @@
+app:
+  datasource:
+    primary:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://127.0.0.1/test?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: root
+    first:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://127.0.0.1/mybatis?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: root
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
